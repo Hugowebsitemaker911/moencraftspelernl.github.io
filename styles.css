@@ -1,0 +1,56 @@
+body {
+    background-image: url('kasteel.png');
+    background-size: cover; 
+    background-position: top; 
+    background-repeat: no-repeat;
+}
+
+
+.headerText {
+    text-align: center;
+    color: #ffffffb9;
+    font-size: 50px;
+}
+
+.smalHeaderText {
+    text-align: center;
+    color: #ffffffb9;
+    font-size: 25px;
+}
+
+#myImage {
+    position: fixed;
+    bottom: 7%;
+    left: 4%;
+    width: 10%;
+    height: auto;
+}
+
+
+button { 
+    color: #d3d3d3; 
+    padding: 10px 20px;
+    font-size: 20px; 
+    margin-top: 20px; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; 
+    position: fixed; 
+    right: 5%;
+}
+
+#button1 {
+    top: 80%;
+    background-color: #3440ac;
+}
+#button2 {
+    top: 70%;
+    background-color: #961a9b
+}
+
+#button1:hover {
+    background-color: #1f2872; 
+}
+#button2:hover {
+    background-color: #5f1355;
+}
